@@ -40,8 +40,8 @@ Please make sure the following is done when submitting a pull request:
 
 ## Code Style Guide
 
-1. Follow the [.clang-format](.clang-format) for C/Cpp code.
-2. Follow the [checkstyle.xml](checkstyle.xml) for Java code.
+1. Follow the project's coding standards for C/Cpp code.
+2. Follow the project's coding standards for Java code.
 
 
 ## License

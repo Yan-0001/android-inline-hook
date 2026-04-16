@@ -5,8 +5,6 @@
 ![](https://img.shields.io/badge/Android-4.1%20--%2016-blue.svg?style=flat)
 ![](https://img.shields.io/badge/arch-armeabi--v7a%20%7C%20arm64--v8a-blue.svg?style=flat)
 
-[简体中文](README.zh-CN.md)
-
 **shadowhook is an Android inline hook library.** Its goals are:
 
 - **Stability** - Can be stably used in production apps.
@@ -34,7 +32,7 @@
 
 ## Documentation
 
-[shadowhook Manual](doc/manual.md)
+[shadowhook Manual](shadowhook/jni/include/shadowhook.h)
 
 > [!CAUTION]
 > The "Quick Start" below will get your DEMO running. However, shadowhook is not just a few hook APIs. To use shadowhook stably in production apps and fully leverage its capabilities, please be sure to read the "shadowhook Manual".
@@ -292,10 +290,10 @@ ShadowHook is licensed under the [MIT License](LICENSE).
 
 ShadowHook uses the following third-party source code or libraries:
 
-* [queue.h](shadowhook/src/main/cpp/third_party/bsd/queue.h)  
+* [queue.h](shadowhook/jni/third_party/bsd/queue.h)  
 BSD 3-Clause License  
 Copyright (c) 1991, 1993 The Regents of the University of California.
-* [tree.h](shadowhook/src/main/cpp/third_party/bsd/tree.h)  
+* [tree.h](shadowhook/jni/third_party/bsd/tree.h)  
 BSD 2-Clause License  
 Copyright (c) 2002 Niels Provos <provos@citi.umich.edu>
 * [linux-syscall-support](https://chromium.googlesource.com/linux-syscall-support/)  
