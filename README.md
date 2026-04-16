@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)
 ![](https://img.shields.io/badge/release-2.0.0-red.svg?style=flat)
 ![](https://img.shields.io/badge/Android-4.1%20--%2016-blue.svg?style=flat)
-![](https://img.shields.io/badge/arch-armeabi--v7a%20%7C%20arm64--v8a-blue.svg?style=flat)
+![](https://img.shields.io/badge/arch-arm64--v8a-blue.svg?style=flat)
 
 **shadowhook is an Android inline hook library.** Its goals are:
 
@@ -17,7 +17,7 @@
 
 ## Features
 
-- Supports armeabi-v7a and arm64-v8a.
+- Supports arm64-v8a.
 - Supports Android `4.1` - `16` (API level `16` - `36`).
 - Supports hook and intercept.
 - Supports specifying hook and intercept target locations via "address" or "library name + function name".
@@ -101,7 +101,7 @@ $(call import-module,prefab/shadowhook)
 android {
     defaultConfig {
         ndk {
-            abiFilters 'armeabi-v7a', 'arm64-v8a'
+            abiFilters 'arm64-v8a'
         }
     }
 }
